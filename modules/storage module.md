@@ -122,7 +122,7 @@ Now is a good time to insert a Custom Approval into your workflow.  Custom Appro
 ### Lab Exercise 
 Create a new Custom Approval Task.  Add two Input Fields - both for Generic Storage FC Adapter List - label them `Fabric A Target Port` and `Fabric B Target Port`
 Insert the Custom Approval Task into your previous workflow - before the **Generic Configure SAN Zoning** task
-Use blahicks@cisco.com as the Approver (during the class).  This will help ensure that we are not overwriting each other's MDS updates. 
+Use my email as the Approver (during the class).  This will help ensure that we are not overwriting each other's MDS updates. 
 
 
 
