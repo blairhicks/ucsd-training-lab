@@ -85,7 +85,7 @@ This task is the key to most zoning operations.  There are actually two Generic 
   **One thing to bear in mind - multiple concurrent operations on the same MDS switch can lead to problems.  We will address this. **
   
 #### Create Cluster Flexible Volume
-  * Safe to go ahead and put these on the Task Inputs screen.
+  * Safe to go ahead and put these on the Task Inputs screen (meaning you can skip the Map User Input)
   [Insert Screen Shot]
   
 #### Create Cluster LUN

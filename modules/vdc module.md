@@ -31,6 +31,19 @@ VM deployment requires the association of a standard catalog with a VDC.  You ar
 ---
 This basic setup will prepare you to leverage a APIC controlled VDC.  The next step in the lab is to work through the ACI Deployment workflows.
 
+## Module: Network Setup
+One of the initial steps to effectively demonstrating network automation is to have a IP Subnet plan.  For the lab, the 19.168.67.0 network has been subdivided into 8 separate subnets.  When you on-board a new group, you will be reserving one of those subnets.
+
+One of the key design decisions is around IP addressing.  That is outside the scope of automation, but UCS Director does provide you with tools, such as the Virtual IP Subnet Pool Policy that can help manage IP addressing.  It is also possible to defer all IP address assignments to a third party IPAM (such as Infoblox).
+
+### Lab Exercise
+1. Review the **IP Subnet Pool Policy** - Policies : Virtual/Hypervisor Policies : Network.  You can create your own Policy, but recognize that it may not be route-able without prior design configuration.
+
+
+
+
+
+
 
 
 
